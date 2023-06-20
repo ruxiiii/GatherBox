@@ -120,6 +120,8 @@ export const MyCalendar = () => {
                   sx={{
                     display: "grid",
                     placeItems: "center",
+
+                    backgroundCOlor: "blue",
                   }}
                 >
                   <LocalizationProvider dateAdapter={AdapterDateFns}>
@@ -127,6 +129,11 @@ export const MyCalendar = () => {
                       value={selectedDate}
                       onChange={handleDateChange}
                       variant="static"
+                      // renderInput={(params) => <TextField {...params} />}
+                      // renderToolbar={renderMonthNavigation}
+                      // views={["year", "month", "day"]}
+                      // openTo="month"
+                      // view={MobileDatePickerView.MONTH}
                     />
                   </LocalizationProvider>
                 </Box>
