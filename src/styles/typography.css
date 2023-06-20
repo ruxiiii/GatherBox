@@ -1,0 +1,289 @@
+.MuiTypography-root {
+  margin: 0;
+}
+
+.MuiTypography-root.green100 {
+  color: #C9D4D2;
+}
+
+.MuiTypography-root.green300 {
+  color: #2F6859;
+}
+
+.MuiTypography-root.green400 {
+  color: #014836;
+}
+
+.MuiTypography-root.white {
+  color: #FFFFFF;
+}
+
+.MuiTypography-body2 {
+  font-size: 13px;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.3846153846153846;
+  letter-spacing: 0.01071em;
+}
+
+.MuiTypography-body2.small {
+  color: #858585;
+  font-size: 14px;
+}
+
+.MuiTypography-body1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.MuiTypography-body1.small {
+  font-size: 13px;
+  line-height: 1.3846153846153846;
+}
+
+.MuiTypography-body1.large {
+  font-size: 18px;
+  line-height: 1.4444444444444444;
+}
+
+.MuiTypography-body1.xlarge {
+  font-size: 22px;
+  line-height: 1.4545454545454546;
+}
+
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+
+.MuiTypography-h1 {
+  font-size: 3.4rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.1;
+  letter-spacing: -0.01562em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h1 {
+    font-size: 5rem;
+  }
+}
+
+.MuiTypography-h2 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.1428571428571428;
+  letter-spacing: -0.00833em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h2 {
+    font-size: 3.5rem;
+  }
+}
+
+.MuiTypography-h3 {
+  font-size: 1.9rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 0em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.MuiTypography-h4 {
+  font-size: 1.45rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.2857142857142858;
+  letter-spacing: 0.00735em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h4 {
+    font-size: 1.75rem;
+  }
+}
+
+.MuiTypography-h5 {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h5 {
+    font-size: 1.5rem;
+  }
+}
+
+.MuiTypography-h5.lato {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0.01em;
+}
+
+.MuiTypography-h6 {
+  font-size: 1.075rem;
+  font-style: normal;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 1.4444444444444444;
+  letter-spacing: 0.0075em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-h6 {
+    font-size: 1.2115rem;
+  }
+}
+
+.MuiTypography-h6.lato {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.5555555555555556;
+  letter-spacing: 0.02em;
+}
+
+.MuiTypography-subtitle1 {
+  font-size: 1.075rem;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5555555555555556;
+  letter-spacing: 0.00938em;
+}
+
+@media (min-width:960px) {
+  .MuiTypography-subtitle1 {
+    font-size: 1.125rem;
+  }
+}
+
+.MuiTypography-subtitle2 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0.00714em;
+}
+
+.MuiTypography-subtitle2.bold {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+
+.MuiTypography-alignRight {
+  text-align: right;
+}
+
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+
+.MuiTypography-colorPrimary {
+  color: #F24412;
+}
+
+.MuiTypography-colorSecondary {
+  color: #F2F2F2;
+}
+
+.MuiTypography-colorTextPrimary {
+  color: #2A2A2A;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: #676767;
+}
+
+.MuiTypography-colorError {
+  color: #f44336;
+}
+
+.MuiTypography-displayInline {
+  display: inline;
+}
+
+.MuiTypography-displayBlock {
+  display: block;
+}
